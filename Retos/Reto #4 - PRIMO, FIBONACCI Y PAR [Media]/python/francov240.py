@@ -19,7 +19,7 @@ def prime_fibo_odd():
 
 fibo_list = [0, 1]
 n = 1
-def fibo_generator(fibo_list, n): ##Hace falta pasar por referencia la lista y el n
+def fibo_generator(fibo_list, n): ##Hace falta pasar por referencia la lista y el 
     while(n < 100):
         fibo_list = fibo_list.append([n-1]+[n])
         n = n + 1
